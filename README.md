@@ -17,7 +17,7 @@ worksheet= workbook.add_worksheet('Courses')
 
 #### CODE ####
 j=0
-for index in range(len(k))
+for index in range(len(k)):
     m = str(k[index])
     url = m[m.rfind('$')+1:]
     lurl = m.split('$')
